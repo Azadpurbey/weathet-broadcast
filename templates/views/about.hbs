@@ -11,23 +11,20 @@
     <body>
         {{>header}}
         <div class="raper">
-                    <h1>ABOUT</h1>
-       <h3>{{second}} </h3>
-       <img src="/img/1.jpg">
-       <h3>{{first}}</h3>
-       <p>
-           
-            What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            ronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-             sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-            versions of Lorem Ipsum.
-       </p>
+            <h1>ABOUT</h1>
+            <div class="container">
+                <img src="https://cdn2.vectorstock.com/i/1000x1000/77/16/weather-background-icon-vector-87716.jpg" style="width:30%;">
 
+                <p style="font-size:2rem;font-weight:700">
+                    This website gives you the data about the current weather and temperature condition in any area you 
+                    want.<br>
+                    Don't believe try it by your self
+                    <br>
+                    This website uses Map box api to convert location into cordinates and then uses Dark sky.net api 
+                    for for providing you exact weather condition.
+                </p>
+            </div>
         </div>
-
        {{>footer}}
     </body>
 </html>

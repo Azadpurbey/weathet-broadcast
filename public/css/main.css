@@ -1,6 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     color:#240C48;
+    
+    background-image: url(https://images.pexels.com/photos/45848/kumamoto-japan-aso-cloud-45848.jpeg?cs=srgb&dl=clouds-light-mountains-45848.jpg&fm=jpg);
+    background-size:cover ;
+    
       
    }
    .blue{
